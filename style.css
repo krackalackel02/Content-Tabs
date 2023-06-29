@@ -3,41 +3,49 @@ body {
 	font-family: "Roboto", sans-serif;
 	color: rgb(65, 74, 101);
 }
+
 .page-wrapper {
 	overflow-x: hidden;
 	height: 100vh;
 	background-color: rgb(241, 245, 248);
 }
+
 img,
 .text-content {
 	width: 40vw;
 	border-radius: 10px;
 	max-width: 750px;
 }
+
 .paragraph {
-	padding: 20px;
+	padding: 10px 20px;
 	background-color: rgb(255, 255, 255);
 }
+
 .content {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
+
 .section-title {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	flex-direction: column;
 }
+
 h2,
 h3,
 .btn {
 	font-weight: bolder;
 	color: rgb(15, 42, 65);
 }
+
 h2 {
 	font-size: 3em;
 }
+
 .btn {
 	font-family: "Roboto", sans-serif;
 	text-align: center;
@@ -45,10 +53,13 @@ h2 {
 	background-color: rgb(218, 226, 236);
 	border: none;
 	font-weight: bold;
+	padding: 20px 0;
 }
+
 .buttons {
 	display: flex;
 }
+
 .text-content {
 	display: flex;
 	flex-direction: column;
@@ -56,21 +67,44 @@ h2 {
 	width: 40vw;
 	border-radius: 10px;
 	max-width: 750px;
-	padding: 10px 0;
+	padding: 20px;
 }
+
 .buttons .btn:first-child {
 	border-top-left-radius: 10px;
 }
+
 .buttons .btn:last-child {
 	border-top-right-radius: 10px;
 }
+
 .paragraph {
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
- 
+.header{
+    margin-bottom: -5px;
+}
+
 @media screen and (max-width: 1200px) {
 	img {
 		width: 80vw;
 	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.text-content {
+		width: 80vw; /* Adjust the width to cover approximately 80vw */
+		max-width: unset; /* Remove the max-width property */
+		padding: 20px;
+	}
+}
+
+
+.text-content {
+	height: fit-content;
 }
