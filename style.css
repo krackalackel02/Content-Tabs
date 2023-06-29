@@ -86,7 +86,7 @@ h2 {
     margin-bottom: -5px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 	img {
 		width: 80vw;
 	}
