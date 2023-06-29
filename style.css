@@ -1,64 +1,76 @@
-body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(65, 74, 101);
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	color: rgb(65, 74, 101);
 }
-.page-wrapper{
-    overflow-x: hidden;
-    height: 100vh;
-    background-color: rgb(241, 245, 248);
-
+.page-wrapper {
+	overflow-x: hidden;
+	height: 100vh;
+	background-color: rgb(241, 245, 248);
 }
-img,.text-content{
-    width: 40vw;
-    border-radius: 10px;
-    max-width: 750px;
+img,
+.text-content {
+	width: 40vw;
+	border-radius: 10px;
+	max-width: 750px;
 }
-.paragraph{
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
+.paragraph {
+	padding: 20px;
+	background-color: rgb(255, 255, 255);
 }
-.content{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.content {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
-.section-title{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+.section-title {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
 }
-h2,h3,.btn{
-    font-weight: bolder;
-    color: rgb(15, 42, 65);
+h2,
+h3,
+.btn {
+	font-weight: bolder;
+	color: rgb(15, 42, 65);
 }
-h2{
-    font-size: 3em;
+h2 {
+	font-size: 3em;
 }
-.btn{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    flex: 1;
-    background-color: rgb(218, 226, 236);
-    border: none;
-    font-weight:bold;
+.btn {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	flex: 1;
+	background-color: rgb(218, 226, 236);
+	border: none;
+	font-weight: bold;
 }
-.buttons{
-    display: flex;
+.buttons {
+	display: flex;
 }
-.text-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40vw;
-    border-radius: 10px;
-    max-width: 750px;
-    padding: 10px 0;
+.text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40vw;
+	border-radius: 10px;
+	max-width: 750px;
+	padding: 10px 0;
 }
-
+.buttons .btn:first-child {
+	border-top-left-radius: 10px;
+}
+.buttons .btn:last-child {
+	border-top-right-radius: 10px;
+}
+.paragraph {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+ 
 @media screen and (max-width: 1200px) {
-	img{
-        width: 80vw;
-    }
+	img {
+		width: 80vw;
+	}
 }
